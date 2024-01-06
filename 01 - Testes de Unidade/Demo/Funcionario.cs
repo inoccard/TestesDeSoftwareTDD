@@ -30,8 +30,8 @@ namespace Demo
 
             Salario = salario;
             if (salario < 2000) NivelProfissional = NivelProfissional.Junior;
-            else if (salario >= 2000 && salario < 8000) NivelProfissional = NivelProfissional.Pleno;
-            else if (salario >= 8000) NivelProfissional = NivelProfissional.Senior;
+            else if (salario < 8000) NivelProfissional = NivelProfissional.Pleno;
+            else NivelProfissional = NivelProfissional.Senior;
         }
 
         private void DefinirHabilidades()

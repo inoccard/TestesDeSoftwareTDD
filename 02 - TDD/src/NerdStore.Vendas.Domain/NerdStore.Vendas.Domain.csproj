@@ -6,6 +6,7 @@
 
   <ItemGroup>
     <PackageReference Include="fluentvalidator" Version="2.0.4" />
+    <PackageReference Include="Microsoft.NETCore.App" Version="2.1.30" />
   </ItemGroup>
 
   <ItemGroup>
